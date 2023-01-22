@@ -1,13 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
+* Clone the repository 
+* Go to directory e.g. cd ps-react-fundamentals 
+* Then, type "npm install" (without apostrophe) in cmd or terminal 
+* Type in cmd or terminal "npm run dev" or "yarn dev" (without apostrophe)
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
