@@ -1,11 +1,11 @@
-import currencyFormatter from "../helpers/currencyFormatter";
+import { Number, Currency } from "react-intl-number-format";
 
 const HouseRow = ({ house }) => {
   return (
     <tr>
       <td>{house.address}</td>
       <td>{house.country}</td>
-      <td>{currencyFormatter.format(house.price)}</td>
+      <td>  <Currency locale="en-US" currency="USD">{house.price}</Currency> </td>
     </tr>
   );
 };
